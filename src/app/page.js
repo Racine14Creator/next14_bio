@@ -1,8 +1,9 @@
+import HomePage from "@/components/Home/HomePage";
 
 export default function Home() {
   return (
     <>
-      <p>Hello Grace</p>
+      <HomePage />
     </>
   );
 }

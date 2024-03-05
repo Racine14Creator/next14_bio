@@ -1,10 +1,14 @@
+import Hero from "../Hero/Hero"
+import Navbar from "../Navbar/Navbar"
 
 const HomePage = () => {
     return (
-        <div>
-            <h3 className="text-3xl font-bold text-center">CHIRUZA BISIMWA GRACE</h3>
-        </div>
-    )
+        <>
+            <Navbar />
+
+            <Hero />
+
+        </>)
 }
 
 export default HomePage
