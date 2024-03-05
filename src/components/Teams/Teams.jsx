@@ -3,7 +3,7 @@ import Image from "next/image"
 const people = [
     {
         name: 'Grace Bisimwa',
-        role: 'CEO',
+        role: 'Co-Founder / CEO',
         imageUrl:
             'https://avatars.githubusercontent.com/u/148460524?v=4',
     },
