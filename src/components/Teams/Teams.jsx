@@ -5,30 +5,30 @@ const people = [
         name: 'Grace Bisimwa',
         role: 'Co-Founder / CEO',
         imageUrl:
-            'https://avatars.githubusercontent.com/u/148460524?v=4',
+            '/assets/img/ceo.jpeg',
     },
     {
         name: 'Diane Uwase',
         role: 'Finance mananger',
         imageUrl:
-            '',
+            '/assets/img/Diane.jpg',
     },
     {
         name: 'Peter Kahumuza',
         role: 'Co-Founder / Director of Finance',
-        imageUrl: '',
+        imageUrl: '/assets/img/Peter.jpg',
     },
     {
         name: 'Bahizi Kananda',
         role: 'Chef of Digital Marketing',
         imageUrl:
-            '',
+            '/assets/img/Bahizi.jpg',
     },
     {
         name: 'Germain Chiruza',
         role: 'IT Maintance Chef',
         imageUrl:
-            '',
+            '/assets/img/NoImage.jpg',
     },
 
 ]
@@ -49,13 +49,12 @@ export default function Teams() {
                         <li key={person.name}>
                             <div className="flex items-center gap-x-6">
                                 <Image
-                                    width={16}
-                                    height={16}
-                                    className="h-16 w-16 rounded-full"
+                                    width={200}
+                                    height={200}
+                                    className="h-16 w-16 rounded-full object-fill"
                                     src={
-                                        person.imageUrl ?
-                                            person.imageUrl :
-                                            '/asstes/img/NoImage.jpg'
+                                        person.imageUrl ||
+                                        "/asstes/img/NoImage.jpg"
                                     }
                                     alt={person.name}
                                 />
