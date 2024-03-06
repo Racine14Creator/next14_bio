@@ -46,7 +46,7 @@ export default function Teams() {
                         Meet our <span className="text-success font-normal">
                             <Typewriter
                                 words={['leadership', 'Co-founders', 'Partners', "Chefs", "Managers"]}
-                                loop={5}
+                                loop={false}
                                 typeSpeed={70}
                                 deleteSpeed={50}
                                 delaySpeed={1000}
