@@ -6,7 +6,7 @@ const Contact = () => {
         <div className="bg-black p-5">
             <div className="container pt-40 min-h-screen max-w-[1000px] m-auto">
                 <div className="relative flex justify-between gap-10 w8/12 bg-white overflow-hidden rounded-md">
-                    <div className="relative basis-1/2 md:basis-1/2 sm:basis-1 p-5">
+                    <div className="relative basis-1/2 md:basis-1/2 sm:w-full p-5">
                         <h3 className="text-4xl font-bold text-base-100">Contact Us</h3>
                         <form action="" method="post">
                             <div className="group my-10">
@@ -41,11 +41,13 @@ const Contact = () => {
                             </div>
                         </form>
                     </div>
-                    <div className="relative flex justify-center items-center flex-col text-left basis-1/2 md:basis-1/2 sm:basis-1 w1/2 bg-none bg-center bg-cover" style={{ background: BgImg }}>
-                        <h3 className="text-base-100 text-3xl font-bold">Write Us message to</h3>
-                        <p>
-                            <span className="text-coral-red">Suggest </span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium veniam repellat tenetur ipsa accusantium? Minus, explicabo. Itaque, vitae? Quaerat itaque nisi expedita, sed omnis delectus saepe. Numquam dolor a ipsam.
-                        </p>
+                    <div className="relative flex justify-center items-center flex-col text-left basis-1/2 md:basis-1/2 sm:basis-1 w1/2 bg-none bg-center bg-cover" style={{ backgroundImage: `url('/assets/img/dataAnalytics.jpg')` }}>
+                        <div className="glass m-5 p-5 rounded-md">
+                            <h3 className="text-base-100 text-3xl font-bold">Write Us message to</h3>
+                            <p>
+                                <span className="text-coral-red font-bold">Suggest </span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium veniam repellat tenetur ipsa accusantium? Minus, explicabo. Itaque, vitae? Quaerat itaque nisi expedita, sed omnis delectus saepe. Numquam dolor a ipsam.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
