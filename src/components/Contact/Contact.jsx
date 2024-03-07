@@ -1,9 +1,7 @@
-import BgImg from "../../../public/assets/img/dataAnalytics.jpg"
-
 
 const Contact = () => {
     return (
-        <div className="bg-black p-5">
+        <div className="bg-black p-5" id="contact">
             <div className="container pt-40 min-h-screen max-w-[1000px] m-auto">
                 <div className="relative flex justify-between gap-10 w8/12 bg-white overflow-hidden rounded-md">
                     <div className="relative basis-1/2 md:basis-1/2 sm:w-full p-5">
